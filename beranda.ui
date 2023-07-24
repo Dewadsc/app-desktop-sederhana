@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>462</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: None;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>441</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {
+	color: #1d4c4f;
+}</string>
+    </property>
+    <property name="text">
+     <string>Beranda</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Aplikasi ini dibuat dengan tujuan untuk mempermudah kita dalam</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>menjalankan aktivifas kita karna sudah include dengan beberapa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>tools yang sudah disediakan, namun jika anda bosan, anda bisa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bermain game yang sudah kami sediakan pada aplikasi ini.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Jangan lupa juga dukung kami untuk mengembangkan aplikasi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>dengan cara beri tanggapan anda jika anda menemukan bug</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>pada aplikasi ini, yang nantinya akan kami perbaiki bug tersebut.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Terima kasih buat yang sudah mendownload aplikasi ini, jangan</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>lupa mampir juga ke website kami untuk melihat beberapa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>program lainnya, melalui website :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_linkweb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_linkweb {
+	border-radius: 4px;
+	color: blue;
+}</string>
+    </property>
+    <property name="text">
+     <string>https://dstartup.000webhostapp.com</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>462</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuTools">
+     <property name="title">
+      <string>Tools</string>
+     </property>
+     <addaction name="actionCek_IP"/>
+     <addaction name="actionYouTube_Downloader"/>
+     <addaction name="actionShort_Link"/>
+     <addaction name="actionCreate_Qr_Code"/>
+     <addaction name="actionWhatsApp_Bot_2"/>
+    </widget>
+    <widget class="QMenu" name="menuGames">
+     <property name="title">
+      <string>Games</string>
+     </property>
+     <addaction name="actionSOS"/>
+     <addaction name="actionGunting_Batu_Kertas"/>
+    </widget>
+    <addaction name="actionBeranda"/>
+    <addaction name="actionJoin_Forum_2"/>
+    <addaction name="actionBeri_Tanggapan_2"/>
+    <addaction name="menuGames"/>
+    <addaction name="menuTools"/>
+    <addaction name="actionProfile_5"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionJoin_Forum">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionBeri_Tanggapan">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionGames">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionTools">
+   <property name="text">
+    <string>Games</string>
+   </property>
+  </action>
+  <action name="actionProfile">
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionProfile_2">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionBeranda">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionJoin_Forum_2">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionBeri_Tanggapan_2">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionProfile_3">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionCek_IP">
+   <property name="text">
+    <string>Cek IP</string>
+   </property>
+  </action>
+  <action name="actionYouTube_Downloader">
+   <property name="text">
+    <string>YouTube Downloader</string>
+   </property>
+  </action>
+  <action name="actionShort_Link">
+   <property name="text">
+    <string>Short Link</string>
+   </property>
+  </action>
+  <action name="actionWhatsApp_Bot">
+   <property name="text">
+    <string>WhatsApp Bot</string>
+   </property>
+  </action>
+  <action name="actionCreate_Barcode">
+   <property name="text">
+    <string>Create Barcode</string>
+   </property>
+  </action>
+  <action name="actionCreate_Qr_Code">
+   <property name="text">
+    <string>Create Qr Code</string>
+   </property>
+  </action>
+  <action name="actionSOS">
+   <property name="text">
+    <string>X dan O</string>
+   </property>
+  </action>
+  <action name="actionGunting_Batu_Kertas">
+   <property name="text">
+    <string>Gunting Batu Kertas</string>
+   </property>
+  </action>
+  <action name="actionProfile_4">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionLog_Out">
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+  </action>
+  <action name="actionMode_Dark">
+   <property name="text">
+    <string>Mode Dark</string>
+   </property>
+  </action>
+  <action name="actionMode_Light">
+   <property name="text">
+    <string>Mode Light</string>
+   </property>
+  </action>
+  <action name="actionProfile_5">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionWhatsApp_Bot_2">
+   <property name="text">
+    <string>WhatsApp Bot</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

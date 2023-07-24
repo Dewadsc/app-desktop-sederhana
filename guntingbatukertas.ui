@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>591</width>
+    <height>251</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>571</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {
+	color: #1d4c4f;
+}</string>
+    </property>
+    <property name="text">
+     <string>Game Gunting Batu Kertas</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pilihan Bot</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pilihan Anda</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>60</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>...........</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>...........</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Menang / Kalah</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_gunting">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_gunting {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_gunting:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Gunting</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_batu">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_batu {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_batu:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Batu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_kertas">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>190</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_kertas {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_kertas:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Kertas</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>571</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_7 {
+	color: #1d4c4f;
+}</string>
+    </property>
+    <property name="text">
+     <string>Pilih dibawah ini untuk memulai permainan</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>571</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>591</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuGames">
+     <property name="title">
+      <string>Games</string>
+     </property>
+     <addaction name="actionSOS"/>
+     <addaction name="actionGunting_Batu_Kertas"/>
+    </widget>
+    <widget class="QMenu" name="menuTools">
+     <property name="title">
+      <string>Tools</string>
+     </property>
+     <addaction name="actionCek_IP"/>
+     <addaction name="actionYouTube_Downloader"/>
+     <addaction name="actionShort_Link"/>
+     <addaction name="actionCreate_Qr_Code"/>
+    </widget>
+    <addaction name="actionBeranda"/>
+    <addaction name="actionJoin_Forum"/>
+    <addaction name="actionBeri_Tanggapan"/>
+    <addaction name="menuGames"/>
+    <addaction name="menuTools"/>
+    <addaction name="actionProfile_2"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionBeranda">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionJoin_Forum">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionBeri_Tanggapan">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionSOS">
+   <property name="text">
+    <string>X dan O</string>
+   </property>
+  </action>
+  <action name="actionGunting_Batu_Kertas">
+   <property name="text">
+    <string>Gunting Batu Kertas</string>
+   </property>
+  </action>
+  <action name="actionCek_IP">
+   <property name="text">
+    <string>Cek IP</string>
+   </property>
+  </action>
+  <action name="actionYouTube_Downloader">
+   <property name="text">
+    <string>YouTube Downloader</string>
+   </property>
+  </action>
+  <action name="actionShort_Link">
+   <property name="text">
+    <string>Short Link</string>
+   </property>
+  </action>
+  <action name="actionCreate_Qr_Code">
+   <property name="text">
+    <string>Create Qr Code</string>
+   </property>
+  </action>
+  <action name="actionProfile">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionProfile_2">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

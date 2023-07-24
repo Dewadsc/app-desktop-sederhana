@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {
+	color: #1d4c4f;
+}</string>
+    </property>
+    <property name="text">
+     <string>Beri Tanggapan</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_nama">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>521</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_nama {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_nama:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Masukkan nama anda disini</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_tanggapan">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>521</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#textEdit_tanggapan {
+	border: 1px solid #009394;
+}
+
+#textEdit_tanggapan:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Silahkan ketik disini bebas</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_kirim">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_kirim {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_kirim:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Kirim</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_clear">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>290</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_clear {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_clear:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>541</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuTools">
+     <property name="title">
+      <string>Tools</string>
+     </property>
+     <addaction name="actionCek_IP"/>
+     <addaction name="actionYouTube_Downloader"/>
+     <addaction name="actionShort_Link"/>
+     <addaction name="actionCreate_Qr_Code"/>
+    </widget>
+    <widget class="QMenu" name="menuGames">
+     <property name="title">
+      <string>Games</string>
+     </property>
+     <addaction name="actionSOS"/>
+     <addaction name="actionGunting_Batu_Kertas"/>
+    </widget>
+    <addaction name="actionBeranda_2"/>
+    <addaction name="actionJoin_Forum_2"/>
+    <addaction name="actionBeri_Tanggapan"/>
+    <addaction name="menuGames"/>
+    <addaction name="menuTools"/>
+    <addaction name="actionProfile_4"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionBeranda">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionJoin_Forum">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionGames">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionTools">
+   <property name="text">
+    <string>Games</string>
+   </property>
+  </action>
+  <action name="actionProfile">
+   <property name="text">
+    <string>Tools</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionBeranda_2">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionJoin_Forum_2">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionBeri_Tanggapan">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionProfile_2">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionCek_IP">
+   <property name="text">
+    <string>Cek IP</string>
+   </property>
+  </action>
+  <action name="actionYouTube_Downloader">
+   <property name="text">
+    <string>YouTube Downloader</string>
+   </property>
+  </action>
+  <action name="actionShort_Link">
+   <property name="text">
+    <string>Short Link</string>
+   </property>
+  </action>
+  <action name="actionWhatsApp_Bot">
+   <property name="text">
+    <string>WhatsApp Bot</string>
+   </property>
+  </action>
+  <action name="actionCreate_Barcode">
+   <property name="text">
+    <string>Create Barcode</string>
+   </property>
+  </action>
+  <action name="actionCreate_Qr_Code">
+   <property name="text">
+    <string>Create Qr Code</string>
+   </property>
+  </action>
+  <action name="actionSOS">
+   <property name="text">
+    <string>X dan O</string>
+   </property>
+  </action>
+  <action name="actionGunting_Batu_Kertas">
+   <property name="text">
+    <string>Gunting Batu Kertas</string>
+   </property>
+  </action>
+  <action name="actionProfile_3">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionProfile_4">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

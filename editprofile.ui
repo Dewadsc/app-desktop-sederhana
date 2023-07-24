@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>375</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>521</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {
+	color: #1d4c4f;
+}</string>
+    </property>
+    <property name="text">
+     <string>Edit My Profile</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_2 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_3 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_4 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_5 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Jenis Kelamin</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_6 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Hobi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_7 {
+	color: #009394;
+}</string>
+    </property>
+    <property name="text">
+     <string>Nomor WhatsApp</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_selesai">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_selesai {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_selesai:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Ubah Sekarang</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_username">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>60</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_username {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_username:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_email">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>100</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_email {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_email:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_password">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>140</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_password {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_password:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_hobi">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_hobi {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_hobi:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_nowa">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>260</y>
+      <width>391</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lineEdit_nowa {
+	border: 1px solid #009394;
+	border-radius: 4px;
+}
+
+#lineEdit_nowa:hover {
+	border: 1px solid #006270;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_kembali">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>310</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btn_kembali {
+	background-color: #009394;
+	border: 1px solid #009394;
+	border-radius: 8px;
+	color: #fff;
+	outline: none;
+}
+
+#btn_kembali:hover {
+	background-color: #006270;
+	border-color: #006270;
+}</string>
+    </property>
+    <property name="text">
+     <string>Kembali</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_lakilaki">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>180</y>
+      <width>82</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Laki Laki</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_perempuan">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>180</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Perempuan</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>541</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuGames">
+     <property name="title">
+      <string>Games</string>
+     </property>
+     <addaction name="actionX_dan_O"/>
+     <addaction name="actionGunting_Batu_Kertas"/>
+    </widget>
+    <widget class="QMenu" name="menuTools">
+     <property name="title">
+      <string>Tools</string>
+     </property>
+     <addaction name="actionCek_IP"/>
+     <addaction name="actionYouTube_Downloader"/>
+     <addaction name="actionShort_Link"/>
+     <addaction name="actionCreate_Qr_Code"/>
+    </widget>
+    <addaction name="actionBeranda"/>
+    <addaction name="actionJoin_Forum"/>
+    <addaction name="actionBeri_Tanggapan"/>
+    <addaction name="menuGames"/>
+    <addaction name="menuTools"/>
+    <addaction name="actionProfile"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <action name="actionBeranda">
+   <property name="text">
+    <string>Beranda</string>
+   </property>
+  </action>
+  <action name="actionJoin_Forum">
+   <property name="text">
+    <string>Join Forum</string>
+   </property>
+  </action>
+  <action name="actionBeri_Tanggapan">
+   <property name="text">
+    <string>Beri Tanggapan</string>
+   </property>
+  </action>
+  <action name="actionProfile">
+   <property name="text">
+    <string>Profile</string>
+   </property>
+  </action>
+  <action name="actionX_dan_O">
+   <property name="text">
+    <string>X dan O</string>
+   </property>
+  </action>
+  <action name="actionGunting_Batu_Kertas">
+   <property name="text">
+    <string>Gunting Batu Kertas</string>
+   </property>
+  </action>
+  <action name="actionCek_IP">
+   <property name="text">
+    <string>Cek IP</string>
+   </property>
+  </action>
+  <action name="actionYouTube_Downloader">
+   <property name="text">
+    <string>YouTube Downloader</string>
+   </property>
+  </action>
+  <action name="actionShort_Link">
+   <property name="text">
+    <string>Short Link</string>
+   </property>
+  </action>
+  <action name="actionCreate_Qr_Code">
+   <property name="text">
+    <string>Create Qr Code</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
